@@ -42,13 +42,13 @@ pip install torch torchvision scikit-learn matplotlib numpy
 
 **VGG19KAN**:
 
-1. **Feature Extractor**: Pre-trained VGG19 convolutional layers (`vgg19.features`)
+1. **Feature Extractor**: Pre-trained VGG19 convolutional layers
 2. **Adaptive Average Pooling**: Reduce feature maps to fixed size `(7x7)`
 3. **KANLinear Layers**:
 
    * `kan1`: 25088 → 512
    * `kan2`: 512 → 1024
-   * `kan3`: 1024 → `num_classes`
+   * `kan3`: 1024 → Output
 
 The model is trained with **CrossEntropyLoss** and optimized using **AdamW**.
 
