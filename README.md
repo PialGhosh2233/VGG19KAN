@@ -1,10 +1,6 @@
-Here’s your updated README with the paper reference added professionally:
-
----
-
 # VGG19-KAN: Hybrid CNN with Kolmogorov-Arnold Network Layers
 
-This repository implements a hybrid deep learning model that combines a **pre-trained VGG19** convolutional backbone with **Kolmogorov-Arnold Network (KAN) linear layers** for flexible and powerful representation learning on image classification tasks.
+This repository contains a hybrid deep learning model that combines a **pre-trained VGG19** convolutional backbone with **Kolmogorov-Arnold Network (KAN) linear layers** for flexible and powerful representation learning on image classification tasks.
 
 This implementation is based on the approach proposed in the paper: **“Refining Crop Pest Recognition Performance through Dynamically Adaptable Activation Patterns of Kolmogorov Arnold Networks”** ([IEEE Link](https://ieeexplore.ieee.org/abstract/document/10940339)).
 
@@ -106,7 +102,7 @@ torch.save(model.state_dict(), "vgg19_kan.pth")
 * [VGG19 PyTorch Implementation](https://pytorch.org/vision/stable/models.html)
 * [Efficient-KAN: Kolmogorov-Arnold Network](https://github.com/Blealtan/efficient-kan)
 * [KAN: Kolmogorov-Arnold Networks](https://arxiv.org/abs/2404.19756)
-* **Paper**: [Refining Crop Pest Recognition Performance through Dynamically Adaptable Activation Patterns of Kolmogorov Arnold Networks](https://ieeexplore.ieee.org/abstract/document/10940339)
+* [Refining Crop Pest Recognition Performance through Dynamically Adaptable Activation Patterns of Kolmogorov Arnold Networks](https://ieeexplore.ieee.org/abstract/document/10940339)
 
 ---
 
