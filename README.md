@@ -86,7 +86,7 @@ test_dataset = datasets.ImageFolder(root='PATH_TO_TEST', transform=test_transfor
 3. Run training:
 
 ```bash
-python train_vgg19_kan.py
+python VGG19KAN.ipynb
 ```
 
 4. Save the trained model:
